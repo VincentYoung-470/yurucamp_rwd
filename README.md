@@ -1,1 +1,1 @@
-# yurucamp_rwd
+# yurucamp_web
