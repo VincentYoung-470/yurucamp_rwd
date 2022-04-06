@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/favicon.ico" rel="shortcut icon"/>
+    <title>TV ゆるキャン△</title>
+    <link rel="stylesheet" href="./css/yurucamp.css">
+</head>
+<body>
+    <img class="ad" src="./img/ad.png" alt="廣告" width="1000px">
+    <img class="rotated" src="./img/rotated.png" alt="">
+    <a class="logo" href="https://yurucamp.jp/cinema/" title="測試超連結" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Yuru_Camp_Heya_logo.svg/1200px-Yuru_Camp_Heya_logo.svg.png" alt="測試圖片" width="400px" height="120px" ></a>
+    <!-- <a class="pic1" href="https://yurucamp-v.com/zh-hant/" title="測試超連結" target="_blank"></a> -->
+    <!-- <a class="pic2" href="https://yurucamp-v.com/zh-hant/" title="測試超連結"target="_blank"></a> -->
+
+    <div class="menu1">
+        <a class="text_style" href="https://yurucamp.jp/news" target="_blank">最新情報</a>
+    </div>
+
+    <div class="menu2">
+        <a class="text_style" href="https://yurucamp.jp/first/introduction/" target="_blank">故事背景</a> 
+    </div>
+
+    <div class="menu3">
+        <a class="text_style" href="https://yurucamp.jp/first/character/" target="_blank">角色介紹</a> 
+    </div>
+
+    <div class="menu4">
+        <a class="text_style" href="https://yurucamp.jp/first/#index" target="_blank">官方公式</a> 
+    </div>
+    <!-- 角色配置 -->
+    <img class="chara_list1" src="./img/chara_list5.png" alt="斉藤恵那">
+    <img class="chara_list2" src="./img/chara_list2.png" alt="志摩リン">
+    <img class="chara_list3" src="./img/chara_list1.png" alt="各務原 なでしこ">
+    <img class="chara_list4" src="./img/chara_list4.png" alt="犬山あおい">
+    <img class="chara_list5"src="./img/chara_list3.png" alt="大垣千明">
+    
+    <img class="content" src="./img/content.png" alt="">
+    <!-- controls autoplay muted loop 控制元件系列 -->
+    <video class="pv_video"  autoplay muted loop width="1440" height="824">
+        <source src="./media/映画『ゆるキャン△』特報│ 2022.7.1 ROADSHOW.mp4">
+        <!--假設有 webm-->
+        <!-- <source src="./media/open.webm"> -->
+        <!--解決舊版本的瀏覽器不支持這兩個元素-->
+        <p>
+            對不起，你的瀏覽器不支持video元素，請點擊這裡下載最新版本的瀏覽器
+        </p>
+        <!-- 也可以嵌入一個flash檔案 -->
+    </video>
+        <!-- 製作返回按鈕 -->
+    <div>
+          <button onclick="returnTop()" id="btnTop" title="返回頂部"><img  class="top" src="./img/left-arrow.png" alt=""></button>
+    </div>
+     <script src="./js/top.js"></script>
+    
+    <footer>
+        <p>©afro,HOUBUNSHA/Yurucamp Committee ©Gemdrops, Inc.</p>
+    </footer>
+</body>
+</html>
